@@ -3,7 +3,7 @@ name: JS Actions
 on: [push]
 
 jobs:
-  actions:
+  action:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
